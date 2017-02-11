@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6A5E2AB1E4EEAE9005AB347 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A5E2AA1E4EEAE9005AB347 /* main.m */; };
+		F6A5E2AE1E4EEAE9005AB347 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A5E2AD1E4EEAE9005AB347 /* AppDelegate.m */; };
+		F6A5E2B11E4EEAE9005AB347 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A5E2B01E4EEAE9005AB347 /* ViewController.m */; };
+		F6A5E2B41E4EEAE9005AB347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A5E2B21E4EEAE9005AB347 /* Main.storyboard */; };
+		F6A5E2B61E4EEAE9005AB347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A5E2B51E4EEAE9005AB347 /* Assets.xcassets */; };
+		F6A5E2B91E4EEAE9005AB347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A5E2B71E4EEAE9005AB347 /* LaunchScreen.storyboard */; };
+		F6A5E2C41E4EEAE9005AB347 /* BarButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A5E2C31E4EEAE9005AB347 /* BarButtonTests.m */; };
+		F6A5E2CF1E4EEAE9005AB347 /* BarButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A5E2CE1E4EEAE9005AB347 /* BarButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6A5E2C01E4EEAE9005AB347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A5E29E1E4EEAE9005AB347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A5E2A51E4EEAE9005AB347;
+			remoteInfo = BarButton;
+		};
+		F6A5E2CB1E4EEAE9005AB347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A5E29E1E4EEAE9005AB347 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A5E2A51E4EEAE9005AB347;
+			remoteInfo = BarButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6A5E2A61E4EEAE9005AB347 /* BarButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A5E2AA1E4EEAE9005AB347 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6A5E2AC1E4EEAE9005AB347 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6A5E2AD1E4EEAE9005AB347 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6A5E2AF1E4EEAE9005AB347 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6A5E2B01E4EEAE9005AB347 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6A5E2B31E4EEAE9005AB347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6A5E2B51E4EEAE9005AB347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A5E2B81E4EEAE9005AB347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6A5E2BA1E4EEAE9005AB347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A5E2BF1E4EEAE9005AB347 /* BarButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A5E2C31E4EEAE9005AB347 /* BarButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarButtonTests.m; sourceTree = "<group>"; };
+		F6A5E2C51E4EEAE9005AB347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A5E2CA1E4EEAE9005AB347 /* BarButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A5E2CE1E4EEAE9005AB347 /* BarButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarButtonUITests.m; sourceTree = "<group>"; };
+		F6A5E2D01E4EEAE9005AB347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A5E2A31E4EEAE9005AB347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A5E2BC1E4EEAE9005AB347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A5E2C71E4EEAE9005AB347 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6A5E29D1E4EEAE9005AB347 = {
+			isa = PBXGroup;
+			children = (
+				F6A5E2A81E4EEAE9005AB347 /* BarButton */,
+				F6A5E2C21E4EEAE9005AB347 /* BarButtonTests */,
+				F6A5E2CD1E4EEAE9005AB347 /* BarButtonUITests */,
+				F6A5E2A71E4EEAE9005AB347 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A5E2A71E4EEAE9005AB347 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5E2A61E4EEAE9005AB347 /* BarButton.app */,
+				F6A5E2BF1E4EEAE9005AB347 /* BarButtonTests.xctest */,
+				F6A5E2CA1E4EEAE9005AB347 /* BarButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A5E2A81E4EEAE9005AB347 /* BarButton */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5E2AC1E4EEAE9005AB347 /* AppDelegate.h */,
+				F6A5E2AD1E4EEAE9005AB347 /* AppDelegate.m */,
+				F6A5E2AF1E4EEAE9005AB347 /* ViewController.h */,
+				F6A5E2B01E4EEAE9005AB347 /* ViewController.m */,
+				F6A5E2B21E4EEAE9005AB347 /* Main.storyboard */,
+				F6A5E2B51E4EEAE9005AB347 /* Assets.xcassets */,
+				F6A5E2B71E4EEAE9005AB347 /* LaunchScreen.storyboard */,
+				F6A5E2BA1E4EEAE9005AB347 /* Info.plist */,
+				F6A5E2A91E4EEAE9005AB347 /* Supporting Files */,
+			);
+			path = BarButton;
+			sourceTree = "<group>";
+		};
+		F6A5E2A91E4EEAE9005AB347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5E2AA1E4EEAE9005AB347 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6A5E2C21E4EEAE9005AB347 /* BarButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5E2C31E4EEAE9005AB347 /* BarButtonTests.m */,
+				F6A5E2C51E4EEAE9005AB347 /* Info.plist */,
+			);
+			path = BarButtonTests;
+			sourceTree = "<group>";
+		};
+		F6A5E2CD1E4EEAE9005AB347 /* BarButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5E2CE1E4EEAE9005AB347 /* BarButtonUITests.m */,
+				F6A5E2D01E4EEAE9005AB347 /* Info.plist */,
+			);
+			path = BarButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A5E2A51E4EEAE9005AB347 /* BarButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A5E2D31E4EEAE9005AB347 /* Build configuration list for PBXNativeTarget "BarButton" */;
+			buildPhases = (
+				F6A5E2A21E4EEAE9005AB347 /* Sources */,
+				F6A5E2A31E4EEAE9005AB347 /* Frameworks */,
+				F6A5E2A41E4EEAE9005AB347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarButton;
+			productName = BarButton;
+			productReference = F6A5E2A61E4EEAE9005AB347 /* BarButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6A5E2BE1E4EEAE9005AB347 /* BarButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A5E2D61E4EEAE9005AB347 /* Build configuration list for PBXNativeTarget "BarButtonTests" */;
+			buildPhases = (
+				F6A5E2BB1E4EEAE9005AB347 /* Sources */,
+				F6A5E2BC1E4EEAE9005AB347 /* Frameworks */,
+				F6A5E2BD1E4EEAE9005AB347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A5E2C11E4EEAE9005AB347 /* PBXTargetDependency */,
+			);
+			name = BarButtonTests;
+			productName = BarButtonTests;
+			productReference = F6A5E2BF1E4EEAE9005AB347 /* BarButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6A5E2C91E4EEAE9005AB347 /* BarButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A5E2D91E4EEAE9005AB347 /* Build configuration list for PBXNativeTarget "BarButtonUITests" */;
+			buildPhases = (
+				F6A5E2C61E4EEAE9005AB347 /* Sources */,
+				F6A5E2C71E4EEAE9005AB347 /* Frameworks */,
+				F6A5E2C81E4EEAE9005AB347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A5E2CC1E4EEAE9005AB347 /* PBXTargetDependency */,
+			);
+			name = BarButtonUITests;
+			productName = BarButtonUITests;
+			productReference = F6A5E2CA1E4EEAE9005AB347 /* BarButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A5E29E1E4EEAE9005AB347 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Suresh;
+				TargetAttributes = {
+					F6A5E2A51E4EEAE9005AB347 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F6A5E2BE1E4EEAE9005AB347 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6A5E2A51E4EEAE9005AB347;
+					};
+					F6A5E2C91E4EEAE9005AB347 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6A5E2A51E4EEAE9005AB347;
+					};
+				};
+			};
+			buildConfigurationList = F6A5E2A11E4EEAE9005AB347 /* Build configuration list for PBXProject "BarButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A5E29D1E4EEAE9005AB347;
+			productRefGroup = F6A5E2A71E4EEAE9005AB347 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A5E2A51E4EEAE9005AB347 /* BarButton */,
+				F6A5E2BE1E4EEAE9005AB347 /* BarButtonTests */,
+				F6A5E2C91E4EEAE9005AB347 /* BarButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A5E2A41E4EEAE9005AB347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A5E2B91E4EEAE9005AB347 /* LaunchScreen.storyboard in Resources */,
+				F6A5E2B61E4EEAE9005AB347 /* Assets.xcassets in Resources */,
+				F6A5E2B41E4EEAE9005AB347 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A5E2BD1E4EEAE9005AB347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A5E2C81E4EEAE9005AB347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A5E2A21E4EEAE9005AB347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A5E2B11E4EEAE9005AB347 /* ViewController.m in Sources */,
+				F6A5E2AE1E4EEAE9005AB347 /* AppDelegate.m in Sources */,
+				F6A5E2AB1E4EEAE9005AB347 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A5E2BB1E4EEAE9005AB347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A5E2C41E4EEAE9005AB347 /* BarButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A5E2C61E4EEAE9005AB347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A5E2CF1E4EEAE9005AB347 /* BarButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6A5E2C11E4EEAE9005AB347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A5E2A51E4EEAE9005AB347 /* BarButton */;
+			targetProxy = F6A5E2C01E4EEAE9005AB347 /* PBXContainerItemProxy */;
+		};
+		F6A5E2CC1E4EEAE9005AB347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A5E2A51E4EEAE9005AB347 /* BarButton */;
+			targetProxy = F6A5E2CB1E4EEAE9005AB347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6A5E2B21E4EEAE9005AB347 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A5E2B31E4EEAE9005AB347 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6A5E2B71E4EEAE9005AB347 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A5E2B81E4EEAE9005AB347 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6A5E2D11E4EEAE9005AB347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A5E2D21E4EEAE9005AB347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A5E2D41E4EEAE9005AB347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.BarButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6A5E2D51E4EEAE9005AB347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.BarButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6A5E2D71E4EEAE9005AB347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.BarButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarButton.app/BarButton";
+			};
+			name = Debug;
+		};
+		F6A5E2D81E4EEAE9005AB347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.BarButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarButton.app/BarButton";
+			};
+			name = Release;
+		};
+		F6A5E2DA1E4EEAE9005AB347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BarButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.BarButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarButton;
+			};
+			name = Debug;
+		};
+		F6A5E2DB1E4EEAE9005AB347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BarButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NeoRays.BarButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A5E2A11E4EEAE9005AB347 /* Build configuration list for PBXProject "BarButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A5E2D11E4EEAE9005AB347 /* Debug */,
+				F6A5E2D21E4EEAE9005AB347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A5E2D31E4EEAE9005AB347 /* Build configuration list for PBXNativeTarget "BarButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A5E2D41E4EEAE9005AB347 /* Debug */,
+				F6A5E2D51E4EEAE9005AB347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6A5E2D61E4EEAE9005AB347 /* Build configuration list for PBXNativeTarget "BarButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A5E2D71E4EEAE9005AB347 /* Debug */,
+				F6A5E2D81E4EEAE9005AB347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6A5E2D91E4EEAE9005AB347 /* Build configuration list for PBXNativeTarget "BarButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A5E2DA1E4EEAE9005AB347 /* Debug */,
+				F6A5E2DB1E4EEAE9005AB347 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A5E29E1E4EEAE9005AB347 /* Project object */;
+}
