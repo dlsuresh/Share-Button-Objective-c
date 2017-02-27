@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic)UIBarButtonItem *shareButton;
 @end
 
 @implementation ViewController
@@ -26,4 +26,24 @@
 }
 
 
+- (IBAction)barButton:(id)sender {
+
+
+    NSArray *share = [NSArray arrayWithObjects:@"image1.jpg", nil];
+    UIActivityViewController *activity = [[UIActivityViewController alloc]initWithActivityItems:share applicationActivities:nil];
+    activity.popoverPresentationController.sourceView = self.view;
+    [self presentViewController:activity animated:YES completion:nil];
+    
+
+
+
+}
+-(void)share:(id)sender{
+    
+    
+   // UIActivityViewController* activity = [[UIActivityViewController alloc]initWithActivityItems:activity applicationActivities:nil];
+    
+    
+    
+}
 @end
